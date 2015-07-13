@@ -39,7 +39,7 @@ public class testJavaLife {
 	}
 	
 	//When the size of the world is 10, the first row of the output should be 10 consecutive numbers: 0-9,
-    //and there should be ten rows of dots showing the world. 
+        //and there should be ten rows of dots showing the world. 
 	@Test
 	public void testToStringTen(){
 		World w = new World(10, 1, 0);
@@ -60,7 +60,7 @@ public class testJavaLife {
 	}
 	
 	//When the size of the world is 11, the first row of the output should be 11 consecutive numbers: 0-9 and 0,
-    //and there should be eleven rows of dots showing the world. 
+        //and there should be eleven rows of dots showing the world. 
 	@Test
 	public void testToStringEleven(){
 		World w = new World(11, 1, 0);
